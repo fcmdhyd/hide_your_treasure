@@ -22,28 +22,28 @@ rowa = row - 1
 if cola==0 and rowa==0:
   row1.insert(0,"☠️")
   row1.pop()
-if cola==1 and rowa==0:
+if cola==0 and rowa==1:
   row1.insert(1,"☠️")
   row1.pop()
-if cola==2 and rowa==0:
+if cola==0 and rowa==2:
   row1.insert(2,"☠️")
   row1.pop()
 
 
-if cola==0 and rowa==1:
+if cola==1 and rowa==0:
   row2.insert(0,"☠️")
   row2.pop()
 if cola==1 and rowa==1:
   row2.insert(1,"☠️")
   row2.pop()
-if cola==2 and rowa==1:
+if cola==1 and rowa==2:
   row2.insert(2,"☠️")
   row2.pop()
 
-if cola==0 and rowa==2:
+if cola==2 and rowa==0:
   row3.insert(0,"☠️")
   row3.pop()
-if cola==1 and rowa==2:
+if cola==2 and rowa==1:
   row3.insert(1,"☠️")
   row3.pop()
 if cola==2 and rowa==2:
